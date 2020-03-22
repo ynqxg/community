@@ -21,6 +21,7 @@ dependencies {
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+    implementation("com.squareup.okhttp3:okhttp:4.4.0")
     // https://mvnrepository.com/artifact/com.baomidou/mybatis-plus
     implementation("com.baomidou:mybatis-plus:3.3.1")
 

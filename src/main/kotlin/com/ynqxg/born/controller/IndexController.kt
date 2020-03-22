@@ -1,17 +1,18 @@
 package com.ynqxg.born.controller
 
+import okhttp3.OkHttpClient
 import org.springframework.stereotype.Controller
 import org.springframework.ui.Model
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestParam
+import sun.net.www.http.HttpClient
 
 @Controller
-class HelloController {
+class IndexController {
 
-    @GetMapping("/hello")
-    fun hello(@RequestParam("name") name: String, model: Model): String {
-        model.addAttribute("name",name)
-        return "hello"
+    @GetMapping("/index")
+    fun hello(): String {
+        return "index"
     }
 
 }
