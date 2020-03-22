@@ -10,8 +10,9 @@ import sun.net.www.http.HttpClient
 @Controller
 class IndexController {
 
+
     @GetMapping("/index")
-    fun hello(): String {
+    fun index(): String {
         return "index"
     }
 
